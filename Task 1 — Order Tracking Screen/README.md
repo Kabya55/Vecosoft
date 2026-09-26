@@ -56,7 +56,8 @@ Designed to replace static status lists (*Processing*, *Shipped*, *Out for Deliv
    npm run dev
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser.
-   Live Url [http://localhost:3000](https://task-1-order-tracking-screen.vercel.app/) in your browser.
+   
+   **Live Url** [https://task-1-order-tracking-screen.vercel.app](https://task-1-order-tracking-screen.vercel.app) in your browser.
 
 4. **Build for Production**:
    ```bash
