@@ -1,0 +1,35 @@
+================================================================================
+AI PROMPT HISTORY
+Project: TrackFlow - Order Tracking Screen (Vecosoft Assessment)
+Tool: Antigravity IDE / Gemini 3.6 Flash
+================================================================================
+
+
+"Build a modern, interactive, premium E-Commerce Order Tracking Web Application ('TrackFlow') using Next.js 16 (App Router, JavaScript) and Tailwind CSS v4.
+
+Key Requirements:
+1. Core Tech & Theme:
+   - Built with Next.js 16 (JavaScript / JSX, not TypeScript).
+   - Default theme must be Light Mode (clean, modern white UI with subtle borders and shadows).
+   - Responsive design optimized for mobile (360px–430px) and desktop views.
+   - Use Lucide React icons and canvas-confetti for delivery celebration animations.
+
+2. Scenario Switcher & Edge Case Handling:
+   - Include an interactive status dropdown/switcher supporting all delivery scenarios:
+     a) Standard In-Transit: Active delivery timeline with live driver map, ETA, stops away counter, and progress bar.
+     b) Situation 1 (Delayed Order): Displays revised ETA, clear delay reason explanation, 'Priority Support' action, and a 'Claim $5 Delay Voucher' button.
+     c) Situation 2 (Delivered but Not Received): Package marked delivered by system but missing for customer. Includes Proof of Delivery Photo & GPS location viewer, delivery verification checklist, and 'Report Missing & Reship/Refund' action.
+     d) Situation 3 (Tracking Not Available Yet): Informative warehouse packing state (Facility #4 Atlanta), avoids broken/empty screens, and provides SMS/WhatsApp alert subscription toggle.
+     e) Completed Delivery: Interactive celebration state with confetti and review submission options.
+
+3. Core UI Components:
+   - Header Component: Clean branding header with default Light Mode state.
+   - Live Vector Driver Map: Interactive SVG map showing courier vehicle position, destination pin, driver rating (4.9⭐), stops remaining, and direct call button.
+   - Progress Timeline: Vertical step progress indicator (Order Placed, Processing, In-Transit, Delivered) with timestamps. Responsive image hiding on small screens for clean readability.
+   - Order Summary Card: List of purchased items with high-res thumbnails, unit prices, subtotal, shipping fee, tax, and total breakdown.
+   - 24/7 Support & AI Chat Modal: Interactive customer support modal with automated resolution workflows for missing packages, delay claims, and ticket generation.
+
+4. Code Structure:
+   - Clean, modular structure (`src/app`, `src/components`, `src/data/orders.js`).
+   - Remove unused variables, dead code, or redundant search bars.
+   - Ensure clean build output with zero errors on `npm run build`."
